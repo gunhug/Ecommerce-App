@@ -7,13 +7,14 @@ import Blog from './pages/Blog'
 
 const App = () => {
   return (
-    <main className='overflow-hidden text-tertiary'>
+    <main className=''>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
+
     </main>
   )
 }
