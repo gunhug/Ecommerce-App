@@ -9,7 +9,7 @@ import Blog from '../pages/Blog'
 import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
 
-const Home = () => {
+  const Home = () => {
   return (
     <>
     <Hero />
