@@ -25,7 +25,7 @@ useEffect(() => {
       <Title 
         title1={'New'} 
         title2={'Arrivals'} 
-        titleStyles={'pb-10'} 
+        titleStyles={'pb-14'} 
         paraStyles={'!block '}/>     
       {/* CONTAINER */}
       <Swiper

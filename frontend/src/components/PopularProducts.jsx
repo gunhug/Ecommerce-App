@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Title from './Title'
-import { products } from '../assets/data'
 import Item from './Item'
+import {ShopContext} from '../context/ShopContext'
 
 const PopularProducts = () => {
 const [popularProducts, setPopularProducts] = useState([])
+const {products} = useContext(ShopContext)
 
 useEffect(() => {
   const data = products.filter(item => item.popular)
@@ -15,7 +16,7 @@ useEffect(() => {
     <Title 
       title1={'Popular'} 
       title2={'Products'} 
-      titleStyles={'pb-10'} 
+      titleStyles={'pb-14'} 
       paraStyles={'!block'}
       />     
       {/* CONTAINER */}
