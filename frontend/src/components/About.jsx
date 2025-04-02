@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from  './Title'
-import testimonial from "../assets/testimonial.png"
+import testimonial from "../assets/hung_ne.JPG"
 import { TbLocation } from 'react-icons/tb'
 import { RiAdminLine, RiSecurePaymentLine, RiSoundModuleLine } from
 'react-icons/ri' 
@@ -22,7 +22,7 @@ const About = () => {
           />
           <img src={testimonial} alt="" height={55} width={55}
           className='rounded-full'/>
-          <h4 className='h4 mt-6'>John Doe</h4>
+          <h4 className='h4 mt-6'>Nguyen Hung</h4>
           <p className='relative bottom-2'>CEO At TechStack</p>
           <FaQuoteLeft className='text-3xl'/>
           <p className='max-w-[222px] mt-5 text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing
